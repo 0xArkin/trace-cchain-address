@@ -1,0 +1,4 @@
+requests==2.25.1
+numpy==1.20.2
+matplotlib==3.4.1
+networkx==2.5.1
