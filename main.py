@@ -1,4 +1,5 @@
 import sys
+import json
 import requests
 import numpy as np
 import networkx as nx
@@ -15,7 +16,9 @@ def scrap(address):
     contracts = contracts["data"]["items"]
     contracts = [contract['contract_address'] for contract in contracts]
     """
-    contracts = [line.rstrip() for line in open('contracts.csv')]
+    with open("contracts.json") as f :
+        kContracts = json.load(f)
+    contracts = kContracts.keys()
 
     # get transactions
     endpoint = "https://api.covalenthq.com/v1/43114/address/{}/transactions_v2/?page-size=999999"
@@ -51,7 +54,10 @@ def scrap(address):
     labels = {}
     color_map = []
     for index, item in enumerate(g.nodes):
-        labels[item] = item[0:8]
+        if item in kContracts :
+            labels[item] = kContracts[item]
+        else :
+            labels[item] = item[0:8]
         if item == address.lower():
             color_map.append('red')
         elif item in contracts:
