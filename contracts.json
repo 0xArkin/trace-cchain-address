@@ -40,5 +40,13 @@
     "0x1c20e891bab6b1727d14da358fae2984ed9b59eb": "TUSD",
     "0x1f1fe1ef06ab30a791d6357fdf0a7361b39b1537": "Sled",
     "0x46c54b16af7747067f412c78ebadae203a26ada0": "GRT",
-    "0xaeb044650278731ef3dc244692ab9f64c78ffaea": "BUSD"
+    "0xaeb044650278731ef3dc244692ab9f64c78ffaea": "BUSD",
+    "0x124737ce6a43a98caaf095accb9a9d6fccbb0e73": "Bamboo Masterchef (v2)",
+    "0x1f7e9bb6ea1da3c4a2647ddac02ce63a21b5691e": "BambooBar (v2)",
+    "0x8ac8ed5839ba269be2619ffeb3507bab6275c257": "Pefi Masterchef (v2)",
+    "0x6b41e5c07f2d382b921de5c34ce8e2057d84c042": "SwapFlashLoan (snob)",
+    "0xb12531a2d758c7a8bf09f44fc88e646e1bf9d375": "Icequeen",
+    "0x621207093d2e65bf3ac55dd8bf0351b980a63815": "SnowGlobe (PngAvaxPng)",
+    "0x5a9710f3f23053573301c2ab5024d0a43a461e80": "Olive Masterchef",
+    "0xecbd16c7966b0b6a804ba8894b8f0931f9ce2599": "Formikoj"
 }
